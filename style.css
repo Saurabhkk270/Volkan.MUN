@@ -2,12 +2,12 @@
   --bg-color: #050510;
   --primary-color: #007bff;
   /* Blue */
-  --secondary-color: #007bff;
+  --secondary-color: #00d4ff;
   /* Lighter Blue */
-  --text-color: #007bff;
-  --text-muted: #007bff;
-  --glass-bg: rgba(0, 255, 239, 0.05);
-  --glass-border: rgba(0, 255, 239, 0.1);
+  --text-color: #ffffff;
+  --text-muted: #e0e0e0;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
   --font-main: 'Outfit', sans-serif;
   --transition: all 0.3s ease;
 }
@@ -24,7 +24,7 @@ body {
   color: var(--text-color);
   overflow-x: hidden;
   line-height: 1.6;
-  background: radial-gradient(ellipse at bottom, #002b2b 0%, #050510 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   min-height: 100vh;
 }
 
