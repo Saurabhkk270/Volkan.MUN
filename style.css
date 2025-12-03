@@ -1,6 +1,6 @@
 :root {
   --bg-color: #050510;
-  --primary-color: #00FFEF;
+  --primary-color: #007bff;
   /* Blue */
   --secondary-color: #00d4ff;
   /* Lighter Blue */
@@ -264,7 +264,7 @@ ul {
 .committee-card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: var(--primary-color);
+  color: #00FFEF;
 }
 
 .committee-card p {
@@ -311,7 +311,7 @@ ul {
 }
 
 .founder-card h3 {
-  color: var(--primary-color);
+  color: #00FFEF;
   margin-bottom: 5px;
 }
 
