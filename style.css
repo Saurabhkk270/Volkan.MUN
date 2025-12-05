@@ -10,8 +10,8 @@
   --glass-border: rgba(255, 255, 255, 0.1);
   --font-main: 'Outfit', sans-serif;
   --transition: all 0.3s ease;
-  --matrix-green: #00ff41;
-  --matrix-dark: #0d0208;
+  --matrix-green: #ff000000;
+  --matrix-dark: #0d020800;
 }
 
 * {
