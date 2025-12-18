@@ -27,27 +27,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// Dragon Animation on Scroll
-window.addEventListener('scroll', () => {
-  const dragon = document.querySelector('.dragon-container');
-  const scrollValue = window.scrollY;
 
-  // Calculate scale and position based on scroll
-  // Starts at scale 1, grows to 3
-  const scale = 1 + (scrollValue * 0.002);
-
-  // Optional: Move it slightly as well
-  // const translateY = scrollValue * 0.5;
-
-  dragon.style.transform = `translate(-50%, -50%) scale(${scale})`;
-
-  // Fade out eventually if it gets too big or covers content
-  if (scale > 5) {
-    dragon.style.opacity = Math.max(0, 1 - (scale - 5));
-  } else {
-    dragon.style.opacity = 0.4;
-  }
-});
 
 /**
  * 
