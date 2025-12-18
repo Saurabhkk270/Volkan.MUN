@@ -39,10 +39,8 @@ body {
   height: 100%;
   pointer-events: none;
   z-index: -1;
-  background-image: url('classic-blue-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #0c0f1d;
+  background-image: none;
   opacity: 1;
 }
 
